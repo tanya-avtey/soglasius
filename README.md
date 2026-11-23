@@ -19,22 +19,3 @@ npm run build
 npm run preview
 ```
 
-Готовая сборка находится в `dist/`.
-
-<<<<<<< HEAD
-=======
-## Файлы
-
-```text
-index.html            Семантическая структура страницы
-src/
-  styles.scss         Переменные, компоненты, адаптивные стили
-  main.js             Вкладки, меню, модальные окна, формы
-public/
-  reference.png       Предоставленный скриншот, источник изображений
-package.json          Зависимости и команды Vite
-package-lock.json     Зафиксированные версии зависимостей
-.gitignore
-README.md
-```
->>>>>>> 5258396 (add faq footer)

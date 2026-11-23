@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Согласиус — конструктор cookie-баннеров и журнал согласий для сайтов и веб-приложений."
+    />
+    <meta name="theme-color" content="#f65359" />
+    <title>Согласиус — согласия под контролем</title>
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+    <header class="header container">
+      <a class="brand" href="#" aria-label="Согласиус — главная"
+        ><img src="/images/logo.png" alt=""
+      ></a>
+      <button
+        class="menu-toggle"
+        aria-label="Открыть меню"
+        aria-expanded="false"
+        aria-controls="navigation"
+      >
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="navigation" aria-label="Главное меню">
+        <a href="#trial">Пробный период</a
+        ><button data-dialog="pricing">Тарифы</button
+        ><a href="#partners">Партнерам</a><a href="#service">О сервисе</a>
+        <div class="mobile-menu-actions">
+          <button class="button button--outline" data-dialog="login">Войти</button>
+          <button class="button" data-dialog="register">Регистрация</button>
+        </div>
+      </nav>
+      <div class="header-actions">
+        <button class="button button--muted" data-dialog="login">Войти</button
+        ><button class="button" data-dialog="register">Регистрация</button>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero container" aria-labelledby="hero-title">
+        <div class="robot">
+          <img src="/images/robot.png" alt="Белый робот с печеньем и документами согласий" />
+        </div>
+        <p class="eyebrow">Сервис для работы с согласиями по 152-ФЗ</p>
+        <h1 id="hero-title">
+          <em>Cookie баннер</em> с журналом<br class="desktop-break" />
+          согласий <em>за 15 минут</em> на<br class="desktop-break" />
+          вашем сайте по 152 ФЗ
+        </h1>
+        <p class="hero-description">
+          Создайте баннер в конструкторе, настройте под стиль сайта и подключите
+          Согласиус. Сохраняйте выбор пользователей по cookie и согласия на
+          обработку персональных данных с привязкой к версии документа.
+        </p>
+        <ul class="features">
+          <li>
+            <img class="feature-icon" src="/images/icon-cookie.png" alt="" />Простой конструктор для Cookie баннеров
+          </li>
+          <li>
+            <img class="feature-icon" src="/images/icon-bitrix.png" alt="" />Модуль для Битрикс
+          </li>
+          <li>
+            <img class="feature-icon" src="/images/icon-platform.png" alt="" />Подключение независимо от платформы
+          </li>
+          <li>
+            <img class="feature-icon" src="/images/icon-journal.png" alt="" />Журнал подтверждений
+          </li>
+          <li>
+            <img class="feature-icon" src="/images/icon-policies.png" alt="" />Политики согласия
+          </li>
+        </ul>
+        <div class="hero-notes">
+          <div class="hero-note">
+            <span class="hero-note-icon"><img src="/images/x393.svg" width="24" height="28" alt="" /></span>
+            <span>Установка за 15 минут</span>
+          </div>
+          <div class="hero-note">
+            <span class="hero-note-icon"><img src="/images/152.svg" width="77" height="18" alt="" /></span>
+            <span>Для работы с согласиями по 152-ФЗ и GDPR</span>
+          </div>
+        </div>
+        <div class="hero-actions" id="trial">
+          <div>
+            <button class="button button--large" data-dialog="register">
+              Попробовать бесплатно</button
+            ><small>30 дней бесплатно · Без банковской карты</small>
+          </div>
+          <button
+            class="button button--outline button--large"
+            data-dialog="contact"
+          >
+            Подключить с помощью нашего специалиста
+          </button>
+        </div>
+      </section>
+      <section
+        class="partners container"
+        id="partners"
+        aria-labelledby="partners-title"
+      >
+        <h2 id="partners-title">Уже с нами</h2>
+        <div class="partner-list">
+          <span
+            class="crop"
+            data-crop="62,1170,124,48"
+            role="img"
+            aria-label="Over Pharma"
+          ></span
+          ><span
+            class="crop"
+            data-crop="269,1169,127,52"
+            role="img"
+            aria-label="Группа компаний Магма"
+          ></span
+          ><span
+            class="crop"
+            data-crop="477,1168,157,54"
+            role="img"
+            aria-label="Проспект — жилой комплекс"
+          ></span
+          ><span
+            class="crop"
+            data-crop="714,1166,119,58"
+            role="img"
+            aria-label="Оптик Энерго"
+          ></span
+          ><span
+            class="crop"
+            data-crop="906,1169,156,53"
+            role="img"
+            aria-label="Сентро"
+          ></span
+          ><span
+            class="crop"
+            data-crop="1139,1172,194,45"
+            role="img"
+            aria-label="Эмитент"
+          ></span
+          ><span
+            class="crop"
+            data-crop="1409,1173,206,42"
+            role="img"
+            aria-label="Complex Clinic"
+          ></span>
+        </div>
+      </section>
+      <section class="service" id="service" aria-labelledby="service-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Один сервис — разные задачи команды</p>
+            <h2 id="service-title">Сервис для сайтов и веб-приложений</h2>
+            <p>Выберите свою роль — покажем какие задачи решает Согласиус</p>
+          </div>
+          <div class="tabs" role="tablist" aria-label="Ваша роль">
+            <button
+              id="tab-business"
+              role="tab"
+              aria-selected="true"
+              aria-controls="role-panel"
+              data-role="business"
+            >
+              Владельцам сайтов и бизнесу</button
+            ><button
+              id="tab-privacy"
+              role="tab"
+              aria-selected="false"
+              aria-controls="role-panel"
+              tabindex="-1"
+              data-role="privacy"
+            >
+              Ответственным за ПД</button
+            ><button
+              id="tab-developer"
+              role="tab"
+              aria-selected="false"
+              aria-controls="role-panel"
+              tabindex="-1"
+              data-role="developer"
+            >
+              Разработчикам</button
+            ><button
+              id="tab-local"
+              role="tab"
+              aria-selected="false"
+              aria-controls="role-panel"
+              tabindex="-1"
+              data-role="local"
+            >
+              Для локального размещения</button
+            ><button
+              id="tab-partner"
+              role="tab"
+              aria-selected="false"
+              aria-controls="role-panel"
+              tabindex="-1"
+              data-role="partner"
+            >
+              Партнёрам
+            </button>
+          </div>
+          <article
+            class="role-panel"
+            id="role-panel"
+            role="tabpanel"
+            aria-labelledby="tab-business"
+            tabindex="0"
+          >
+            <div class="role-copy">
+              <p class="eyebrow" id="role-label"></p>
+              <h3 id="role-title"></h3>
+              <p class="role-summary" id="role-summary"></p>
+              <ul class="check-list" id="role-features"></ul>
+              <button
+                class="text-link"
+                id="details-toggle"
+                aria-expanded="false"
+                aria-controls="role-details"
+              >
+                Посмотреть все возможности <span aria-hidden="true"><img src="/images/arrow-righ.svg" width="14" height="14"></span>
+              </button>
+              <p id="role-details" hidden>
+                Настраивайте внешний вид баннера, управляйте версиями документов
+                и просматривайте историю согласий в едином кабинете.
+              </p>
+            </div>
+            <div class="dashboard" data-role="business">
+              <span
+                class="crop"
+                data-crop="864,1724,701,464"
+                role="img"
+                aria-label="Кабинет Согласиус: список проектов и статистика согласий"
+              ></span>
+              <span class="dashboard-illustration" role="img"></span>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <dialog id="action-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close" aria-label="Закрыть окно">×</button>
+      <h2 id="dialog-title"></h2>
+      <p id="dialog-description"></p>
+      <form id="action-form">
+        <label class="name-field"
+          >Ваше имя<input name="name" autocomplete="name" /></label
+        ><label
+          >Электронная почта<input
+            name="email"
+            type="email"
+            autocomplete="email"
+            required
+            placeholder="you@example.ru" /></label
+        ><label class="password-field"
+          >Пароль<input
+            name="password"
+            type="password"
+            autocomplete="current-password"
+            minlength="8" /></label
+        ><button class="button" type="submit">Продолжить</button>
+        <p class="form-note">Демонстрационная форма. Данные не отправляются.</p>
+      </form>
+      <p id="form-result" role="status"></p>
+    </dialog>
+  </body>
+</html>
